@@ -1,49 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Puskar Mal | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-        <p>Hi, I’m Puskar Mal, an aspiring software developer!</p>
-    </header>
+  <header>
+    <nav class="navbar">
+      <div class="nav-brand">Puskar Mal</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <img src="/puskar1.png" alt="Puskar Mal" class="profile-pic" />
+      <div class="intro-text">
+        <h1>Hello, I'm <span>Puskar Mal</span></h1>
+        <p>An aspiring software developer passionate about coding and building projects.</p>
+      </div>
+    </div>
+  </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I’m currently learning software development through this internship program. I enjoy coding, problem-solving, and building projects!</p>
+  <main>
+    <section id="about" class="fade-in">
+      <h2>About Me</h2>
+      <p>I’m a student of B.Tech in Electronics & Computer Science. I am curious and passionate about buidling and scaling SaaS applications. I enjoy coding, problem-solving and building projects!</p>
     </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Python</li>
-            <li>JAVA</li>
-            <li>AIML</li>
-            <li>IoT</li>
-            <li>SQL</li>
-            <li>MERN Stack</li>
-            <li>HTML & CSS</li>
-            <li>JavaScript</li>
-        </ul>
+    <section id="skills" class="fade-in">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>MySQL</li>
+        <li>NodeJS</li>
+        <li>Python</li>
+        <li>TypeScript</li>
+        <li>JavaScript</li>
+        <li>API Design and Documentation</li>
+        <li>Git and GitHub</li>
+        <li>Demonstrable Portfolio</li>
+        <li></li>
+      </ul>
     </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li><a href="https://effervescent-lebkuchen-a2d7f2.netlify.app/">Weather-based Event Management System (EventCast)r</a></li>
-            <li><a href="https://rainbow-maamoul-1ebe75.netlify.app/">AI-powered Personalized Library Management System</a></li>
-            <li><a href="https://drive.google.com/drive/folders/11o4YSWmE-UzsVtEUZsQgkJz1CxfzrG4d">Stock Prediction using RNN</a></li>
-            <li><a href="https://github.com/PuskarMal/gameWithPython">Number Guessing Game</a></li>
-        </ul>
+    <section id="projects" class="fade-in">
+      <h2>Projects</h2>
+      <ul class="projects-list">
+        <li><a href="https://effervescent-lebkuchen-a2d7f2.netlify.app/" target="_blank">Weather-based Event Management System (EventCast)</a></li>
+        <li><a href="https://rainbow-maamoul-1ebe75.netlify.app" target="_blank">AI-powered Personalized Library Management System</a></li>
+        <li><a href="#">Library Management System Software using Java, Swing</a></li>
+      </ul>
     </section>
+  </main>
 
-    <footer>
-        <p>© 2025 Puskar Mal. All rights reserved.</p>
-    </footer>
+  <footer>
+    <p>© 2025 Puskar Mal. All rights reserved.</p>
+  </footer>
 </body>
 </html>
