@@ -122,8 +122,8 @@ section h2 {
   
 }
 .projects-list li,
-.extracurricular-list li,
-.certificate-list li {
+.ext-list li,
+.cer-list li {
   list-style: none;
   padding: 8px;
   padding-left: 1rem;
