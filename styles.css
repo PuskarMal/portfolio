@@ -103,7 +103,14 @@ section h2 {
   margin-bottom: 1rem;
   color: #66ccff;
 }
-
+#btn{
+  border: 1px solid #66ccff; color:white; border-radius: 10px; padding: 4px 8px 4px 8px;
+}
+#btn:hover{
+  color: #00a9feff;
+  background:white;
+  text-decoration:none;
+}
 .skills-list, .projects-list{
   position: relative;
   margin-left: 20px;
