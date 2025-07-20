@@ -6,6 +6,8 @@
   <title>Puskar Mal | Portfolio</title>
   <link rel="stylesheet" href="styles.css" />
   <script defer src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 <body>
   <header>
@@ -15,69 +17,137 @@
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#certicates">Certificates & Achievements</a></li>
-        <li><a href="#extracurricular">Extracurricular Activities</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#extracurricular">Extracurricular</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
     <div class="hero">
       <img src="puskar1.png" alt="Puskar Mal" class="profile-pic" />
       <div class="intro-text">
         <h1>Hello, I'm <span>Puskar Mal</span></h1>
-        <p>An aspiring software developer passionate about coding and building projects.</p>
+        <p>An aspiring software developer passionate about coding and building impactful solutions.</p>
       </div>
+      <button class="resume-btn">Resume</button>
     </div>
   </header>
 
   <main>
+    
     <section id="about" class="fade-in">
       <h2>About Me</h2>
-      <p>I’m a final-year B.Tech student specializing in Electronics & Computer Science at Guru Nanak Institute of Technology, Kolkata. With hands-on experience in both backend and frontend development, I’ve worked on projects ranging from full-stack applications to geospatial analysis using AI/ML.</p>
+      <p>I’m a final-year B.Tech student specializing in Electronics & Computer Science at Guru Nanak Institute of Technology, Kolkata. With hands-on experience in backend and frontend development, I’ve worked on projects involving full-stack development, geospatial AI, and ML integration. I value writing clean, scalable code and love turning ideas into reality.</p>
     </section>
 
     <section id="skills" class="fade-in">
       <h2>Skills</h2>
       <ul class="skills-list">
-        <li>MySQL</li>
-        <li>NodeJS</li>
-        <li>Python</li>
-        <li>TypeScript</li>
-        <li>JavaScript</li>
-        <li>API Design and Documentation</li>
-        <li>Git and GitHub</li>
-        <li>Demonstrable Portfolio</li>
-        <li></li>
+        <div class="timeline-item">
+        <li>MySQL – Database design & querying</li>
+        </div>
+        <div class="timeline-item">
+        <li>NodeJS – RESTful API development</li>
+        </div>
+        <div class="timeline-item">
+        <li>Python – Data scripting & automation</li>
+        </div>
+        <div class="timeline-item">
+        <li>TypeScript – Typed JavaScript for better code quality</li>
+        </div>
+        <div class="timeline-item">
+        <li>JavaScript – Dynamic web interaction</li>
+        </div>
+        <div class="timeline-item">
+        <li>API Design and Documentation – ThunderClient</li>
+        </div>
+        <div class="timeline-item">
+        <li>Git and GitHub – Version control & collaboration</li>
+        </div>
+        <div class="timeline-item">
+        <li>Project Deployment – Netlify, Render</li>
+        </div>
       </ul>
     </section>
+    
 
     <section id="projects" class="fade-in">
       <h2>Projects</h2>
       <ul class="projects-list">
-        <li><a href="https://effervescent-lebkuchen-a2d7f2.netlify.app/" target="_blank">Weather-based Event Management System (EventCast)</a></li>
-        <li><a href="https://rainbow-maamoul-1ebe75.netlify.app" target="_blank">AI-powered Personalized Library Management System</a></li>
-        <li><a href="#">Library Management System Software using Java, Swing</a></li>
-        <li><a href="https://www.icsaa.in/">International Conference Website: ICSAA 2025</li>
+        <li>
+          <article>
+            <strong><a href="https://effervescent-lebkuchen-a2d7f2.netlify.app/" target="_blank">🌦️ EventCast - Weather-based Event Management</a></strong><br/>
+            <p>A full-stack web application that helps users plan events based on weather forecasts using APIs like Open-Meteo.</p>
+            <p><em>Skills Gained:</em> API integration, NodeJS, Git, UI/UX, JavaScript, async data handling</p>
+          </article>
+        </li>
+        <li>
+          <article>
+            <strong><a href="https://rainbow-maamoul-1ebe75.netlify.app" target="_blank">📚 AI-powered Personalized Library Management System</a></strong><br/>
+            <p>A smart library app that uses ML for recommending books, and supports user login, book tracking, and admin management.</p>
+            <p><em>Skills Gained:</em> React, NodeJS, ExpressJS, MongoDD Atlas, NLP recommendation</p>
+          </article>
+        </li>
+        <li>
+          <article>
+            <strong><a href="https://drive.google.com/file/d/1wJRNc1O5k5GcpX32iKAStJqoRwBIR47M/view?usp=drive_link" target="_blank">📘 Library Management System using Java Swing</a></strong><br/>
+            <p>Desktop application for managing book records, users, and transactions built with Java Swing and JDBC.</p>
+            <p><em>Skills Gained:</em> MySQL, JDBC, Java GUI, object-oriented design</p>
+          </article>
+        </li>
+        <li>
+          <article>
+            <strong><a href="https://www.icsaa.in/" target="_blank">🌐 ICSAA 2025 – International Conference Website</a></strong><br/>
+            <p>Designed and maintained the official site for ICSAA 2025 conference using HTML, CSS, and JavaScript.</p>
+            <p><em>Skills Gained:</em> Tailwind CSS, Team coordination, static site design, deployment</p>
+          </article>
+        </li>
       </ul>
     </section>
-
+    <div class="cer-list" style="display:flex;">
     <section id="certificates" class="fade-in">
       <h2>Certificates & Achievements</h2>
       <ul class="certificate-list">
-        <li>Agnirva Software Internship Program - Summer 2025</li>
-        <li>SAP ABAP Course</li>
-        <li>TypeScript String Properties and Methods</li>
-        <li>IoT & Data Analytics</li>
-        <li>Learn Javascript</li>
-        <li>AI/ML for Geodata Analysis course by IIRS, Dehradun</li>
+        <li><i class="fas fa-check-circle"></i>&emsp;<a href="https://drive.google.com/open?id=1gmayHVxFtUYC4tuXnmhUoj2JzHIH1GoQ">Agnirva Software Internship Program - Summer 2025</a></li>
+        <li><i class="fas fa-check-circle"></i>&emsp;<a href="https://drive.google.com/open?id=1FZ1NBsdEsuVMttEOoNbAf6K4VCOkUxAq">SAP ABAP Course</a></li>
+        <li><i class="fas fa-check-circle"></i>&emsp;<a href="https://www.coursera.org/account/accomplishments/verify/7YCSGVUXXGN9?utm_source%3Dandroid %26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta% 26utm_product%3Dcourse">TypeScript String Properties and Methods</a></li>
+        <li><i class="fas fa-check-circle"></i>&emsp;<a href="https://drive.google.com/open?id=1YHp-J1-XyXMZxgHdp4ZXwCnixpeek0e7">IoT & Data Analytics</a></li>
+        <li><i class="fas fa-check-circle"></i>&emsp;<a href="https://www.coursera.org/account/accomplishments/verify/FVMR755ZRSNB?utm_source%3Dandroid% 26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%2 6utm_product%3Dcourse">JavaScript Fundamentals – by Sololearn</a></li>
+        <li><i class="fas fa-check-circle"></i>&emsp;<a href="https://drive.google.com/open?id=1hKMu-NpXX7oJuS_Vvk3vM8y1xacfAo8J">AI/ML for Geodata Analysis – IIRS, Dehradun</a></li>
       </ul>
     </section>
+    <div class="cer-img" style="margin-top:90px;">
+      <img src="achievement.png" alt="" style="width:50%;">
+    </div>
+    </div>
+    <div class="ext-list" style="display:flex;">
     <section id="extracurricular" class="fade-in">
-      <h2>Extracurricular activities</h2>
-      <ul class="certificate-list">
-        <li>Track SPOC of ICSAA-2025, an international conference</li>
-        <li>Event Co-head of Ingenium Techfest at GNIT</li>
-        <li>Presented research paper in an International Conference at @GNIT</li>
+      <h2>Extracurricular Activities</h2>
+      <ul class="extracurricular-list">
+        <li><i class="fas fa-check-circle"></i>&emsp;<a href="https://drive.google.com/file/d/1E6Kz5ScSJAjRkwqjYPZP62L9oKAZI3Ef/view?usp=drive_link">Track SPOC of ICSAA-2025, an international conference</a></li>
+        <li><i class="fas fa-check-circle"></i>&emsp;<a href="https://drive.google.com/file/d/1TXkLfyH8HJ0NgHi3awz7kr9MsT4c92ju/view?usp=drive_link">Event Co-head of Ingenium Techfest at GNIT</a></li>
+        <li><i class="fas fa-check-circle"></i>&emsp;<a href="https://drive.google.com/file/d/1Kj-1ol1bI97kz-WSMixooBh9ClWwCmob/view?usp=sharing">Presented research paper in an International Conference @ GNIT</a></li>
       </ul>
     </section>
+    <div class="cer-img" style="margin-top:20px;">
+    <img src="list-to-do.png" alt="" style="width:50%; ">
+      </div>
+  </div>
+
+    <!-- Add to the navbar list -->
+
+
+<!-- BELOW your hobbies section -->
+<section id="contact" class="fade-in">
+  <h2>Contact Me</h2>
+  <p>Interested in collaborating or have a question? Let’s connect!</p>
+  <div class="contact-container">
+    <p><i class="fas fa-envelope"></i> &emsp; <a href="mailto:puskarmal07@gmail.com">puskarmal07@gmail.com</a></p>
+  <p><i class="fab fa-github"></i> &emsp; <a href="https://github.com/PuskarMal" target="_blank">GitHub</a></p>
+  <p><i class="fab fa-linkedin"></i> &emsp; <a href="https://www.linkedin.com/in/puskar-mal-a785a1371/" target="_blank">LinkedIn</a></p>
+
+  </div>
+</section>
+
   </main>
 
   <footer>
